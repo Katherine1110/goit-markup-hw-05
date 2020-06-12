@@ -219,7 +219,6 @@ header {
     background: rgba(47, 48, 58, 0.8);
     text-align: center;
     max-width: 1600px;
-    height: 600px;
 
     /* margin-left: auto;
     margin-right: auto; */
@@ -410,7 +409,6 @@ img {
     position: absolute;
 
     width: 100%;
-    height: 70px;
     bottom: 0;
 
     background: rgba(47, 48, 58, 0.8);
@@ -857,9 +855,6 @@ img {
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--title-text-color);
-
-    padding-left: 24px;
-    margin-bottom: 4px;
 }
 
 .portfolio-caption {
@@ -867,17 +862,15 @@ img {
     line-height: 1.87;
     letter-spacing: 0.03em;
     color: var(--main-text-color);
+}
 
-    padding-left: 24px;
-    
-    margin-bottom: 20px;
+.poster-caption {
+    padding: 20px 24px;
 }
 
 .poster {
     position: relative;
     overflow: hidden;
-    margin-bottom: 20px;
-
 }
 
 .poster::after {
@@ -895,11 +888,6 @@ img {
 
     transition: transform 250ms var(--timing-function);
 }
-
-
-/* .portfolio-pic {
-    margin-bottom: 0;
-} */
 
 .portfolio-description {
     position: absolute;
